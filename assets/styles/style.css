@@ -400,9 +400,9 @@ a:hover {
     .ink-cursor span {
         display: none
     }
-/*    body {
-        overflow: visible;
-    }*/
+    body {
+        overflow: hidden;
+    }
     
 }
 
