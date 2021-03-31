@@ -70,6 +70,7 @@ img {
 }​
 
 #projects {
+    margin-top: 0%;
     background-color: #e6eef2;
     width: 100% !important;
     height: 100%;
@@ -300,6 +301,9 @@ video {
         /*margin-left: 13%;*/
         width: 100%;
     }​
+    html {
+        overflow-x: hidden;
+    }
 
 }
 
@@ -383,9 +387,9 @@ a:hover {
     .ink-cursor span {
         display: none
     }
-    body {
+/*    body {
         overflow: visible;
-    }
+    }*/
     
 }
 
