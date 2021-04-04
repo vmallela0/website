@@ -36,10 +36,16 @@ p {
 
 #blogDate {
     width: 40%;
+    font-size: 0.8em
 }
 
 #blogName {
-    width: 30%;
+    width: 40%;
+    font-size: 0.8em;
+    margin-left: 15%; 
+    margin-top: -2%;
+    /*margin-left:;*/
+
 }
 
 hr {
@@ -135,6 +141,10 @@ section {
 }
 
 i {
+    color: black;
+}
+
+i:hover {
     color: dodgerblue;
 }
 
@@ -280,8 +290,17 @@ video {
 
 
     #blogDate {
-        color: red;
+        width: 40%;
+        font-size: 0.8em;
+        margin-top: 6%;
+    }
+
+
+    #blogName {
         width: 50%;
+        font-size: 1em;
+        margin-left: 35%;
+        margin-top: -8%;
     }
 
 
@@ -374,19 +393,28 @@ video {
 
 }
 
-
-a {
-    color: black;
-    text-decoration: none !important;
-}
-
 a:hover {
     color: dodgerblue;
+    font-weight: 900;
 }
 
 
 a {
     color: dodgerblue;
+    text-decoration: none !important;
+    font-weight: lighter;
+}
+
+#socialsLinks {
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+#socialsLinks:hover {
+    color: dodgerblue;
+    text-decoration: none;
+    font-weight: lighter;
 }
 
 
