@@ -1,0 +1,537 @@
+
+h1 {
+    color: black;
+    font-size: 5vmin;
+    /*line-height: 1;*/
+    font-weight: bold;
+    /*letter-spacing: 2px;*/
+    font-family: 'Vollkorn';
+    margin-top: 0%;
+}
+
+h2 {
+    font-family: 'Cutive Mono', monospace;
+    color: black;
+    font-size: 1.3em;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 1.5em;
+}
+
+h4 {
+    font-family: 'PT Mono', monospace;
+    color: black;
+    font-size: 5vmin;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    margin-right: 30%;
+    margin-left: 30%;
+    /*border-style: solid;*/
+}
+
+iframe {
+    margin-left: 28%;
+    width: 50%;
+}
+
+#title {
+  font-size: 3em; 
+  font-family: 'Roboto', sans-serif; 
+  margin-top: 7%; 
+  text-align: center;
+}
+
+.ciphertext {
+    width: 40%;
+}
+
+input {
+    width: 25%;
+}
+
+#blogDate {
+    width: 40%;
+    font-size: 0.8em
+}
+
+#blogName {
+    width: 30%;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    background-color: dodgerblue;
+    width: 80%
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 40%;
+    margin-left: 30%;
+}
+
+#title {
+  font-size: 3em; 
+  font-family: 'Roboto', sans-serif; 
+  margin-top: 7%; 
+  text-align: center;
+}
+
+.one {
+  width: 50%;
+  /*height: 200px;*/
+  margin-left: 7.5%;
+  margin-top: 0px;
+  float: left;
+}
+
+.two {
+  margin-left: 70%;
+  margin-top: 2%;
+  /*height: 200px;*/
+  width: 60%;
+}
+
+.contacts {
+  margin-left: 50%;
+  /*height: 200px;*/
+  width: 40%;
+}
+
+.three{
+    float:left;
+    margin-left: 8%;
+    width: 30%;
+}​
+
+#projects {
+    margin-top: 0%;
+    background-color: #e6eef2;
+    width: 100% !important;
+    height: 100%;
+    display: inline-block;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+#rainbow {
+    margin-top: 0%;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    width: 100% !important;
+    height: 100%;
+    display: inline-block;
+    /*padding-bottom: 20%;/*/
+    padding-top: 3%;
+}
+
+#rainbowH2 {
+    color: black;
+    font-weight: lighter;
+}
+
+#rainbowH2:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.rainbowText {
+  width: 50%;
+  margin-left: 7.5%;
+  margin-top: 20%;
+  float: left;
+}
+
+#projectsBlack {
+    background-color: black;
+    width: 100% !important;
+    height: 100%;
+    display: inline-block;
+    padding-bottom: 5%;
+}
+
+#blogs {
+    background-color: white;
+    width: 100%; 
+    height: 100%;
+    display: inline-block;
+    /*padding-bottom: 5%;*/
+}
+
+#blogLine {
+    border: none;
+    height: 0.1px;
+    background-color: lightgrey;
+    margin-right: 30%;
+    width: 80%
+}
+
+body {
+    /*background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;*/
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+section {
+    background-color: white;
+    padding-bottom: 2%;
+}
+
+#pfp {
+    width: 60%; 
+    margin-top: 8%;
+}
+
+i {
+    color: dodgerblue;
+}
+
+.row {
+  margin: 8%;
+  margin-bottom: 0%;
+  width: 90%
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 1%;
+}
+
+/* Create four equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 40%;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  margin-left: 5%
+}
+
+.column3 {
+  float: left;
+  width: 25%;
+  margin-left: 0%;
+}
+
+.column4 {
+  float: left;
+  width: 40%;
+  margin-left: 2%
+  /*margin-right: 2%*/
+}
+
+.tab { 
+       display:inline-block; 
+       margin-left: 40px; 
+}
+
+.tabMenu { 
+       display:inline-block; 
+       margin-left: 40px; 
+}
+
+span {
+    display:inline-block; 
+    margin-left: 40px; 
+}
+
+#dateSpan {
+    display:inline-block; 
+    /*margin-left: 10em; */
+    right: 20%;
+    margin-top: -12%;   
+}
+
+video {
+  /* override other styles to make responsive */
+  width: 43%    !important;
+  height: auto   !important;
+  margin-left: 30%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+td {
+    padding: 0%;
+    max-width: 40px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+colgroup, tbody {
+    border: solid medium;
+}
+
+input {
+    width: 100%;
+    font-size: 20px
+}
+
+@media screen and (max-width: 900px) {
+    .column1 {
+        width: 100%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+
+    .column2 {
+        width: 50%;
+    }
+    .column3 {
+        width: 50%;
+    }
+
+    .column4 {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .three{
+        float:left;
+        margin-left: 8%;
+        width: 80%;
+    }​
+
+    .column1 {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .column2 {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .column3 {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .column4 {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .row {
+      margin: 5%;
+      width: 90%
+    }
+
+    #blogs {
+        background-color: white;
+        width: 100%; 
+        height: 100%;
+        display: inline-block;
+        /*padding-bottom: 5%;*/
+    }
+
+    #projects {
+        margin-top: 0%;
+        background-color: #e6eef2;
+        width: 100% !important;
+        height: 100%;
+        display: inline-block;
+    }
+
+    #projectsBlack {
+        background-color: black;
+        width: 100% !important;
+        height: 100%;
+        display: inline-block;
+        padding-bottom: 15%;
+        margin-bottom: -5%;
+    }
+
+
+    #blogDate {
+        width: 70%;
+        font-size: 1em;
+        margin-right: 0%;
+    }
+
+
+    img {
+        width: 40%;
+    }
+
+    #pfp {
+         width: 100%; 
+         margin-top: 8%;
+    }
+
+    .tabMenu { 
+       display:block; 
+       margin-left: 0%; 
+    }
+
+    span {
+        display: inline;
+        /*margin-left: 2%;*/
+    }
+
+    #menu {
+        margin-top: 0%;
+        margin-bottom: 18%;
+    }
+
+    iframe {
+        margin-left: 15%;
+        width: 70%;
+        height: 20%;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+    h1 {
+        /*color: blue;*/
+        font-size: 28vw;
+        /*line-height: 1;*/
+        font-weight: bold;
+        /*letter-spacing: 2px;*/
+        font-family: 'Vollkorn';
+        margin: 10px;
+        margin-top: 140px;
+    }
+
+    h2 {
+        font-family: 'Cutive Mono', monospace;
+        color: black;
+        font-size: 7vmin;
+        margin: 10px;
+    }
+
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        color: black;
+        font-size: 7vmin;
+    }
+
+    h4 {
+        font-family: 'PT Mono', monospace;
+        color: black;
+        font-size: 7vmin;
+    }
+
+    p {
+        font-family: 'Lato', sans-serif;
+        font-size: 1.2em;
+        margin-right: 10%;
+        margin-left: 10%;
+        /*border-style: solid;*/
+    }
+
+    .two{
+        float:left;
+        margin-left: 10%;
+        width: 70%;
+    }​
+
+    .contacts {
+        float: left;
+        margin-left: 0%;
+        width: 70%;
+    }
+
+
+    .one{
+        float:left;
+        /*margin-left: 13%;*/
+        width: 100%;
+    }​
+
+    .three{
+        float:left;
+        /*margin-left: 13%;*/
+        width: 100%;
+    }​
+    html {
+        overflow-x: hidden;
+    }
+
+
+    #rainbow {
+        margin-top: 0%;
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        width: 100% !important;
+        height: 100%;
+        display: inline-block;
+        padding-bottom: 20%;
+        padding-top: 3%;
+    }
+
+}
+
+
+a {
+    color: dodgerblue;
+    text-decoration: none !important;
+    font-weight: lighter;
+}
+
+a:hover {
+    color: dodgerblue;
+    font-weight: bold
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+
+
+
