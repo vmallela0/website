@@ -19,6 +19,9 @@ h3 {
     font-family: 'Roboto', sans-serif;
     color: black;
     font-size: 1.5em;
+    text-align: center; 
+    margin-left: 30%; 
+    margin-right: 30%;
 }
 
 h4 {
