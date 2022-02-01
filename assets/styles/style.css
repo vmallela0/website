@@ -5,20 +5,20 @@ h1 {
     /*line-height: 1;*/
     font-weight: bold;
     /*letter-spacing: 2px;*/
-    font-family: 'Vollkorn';
+    font-family: 'system-ui', sans-serif;
     margin: 10px;
     margin-top: 140px;
 }
 
 h2 {
-    font-family: 'Cutive Mono', monospace;
+    font-family: 'system-ui', sans-serif;
     color: black;
     font-size: 3vmin;
     margin: 10px;
 }
 
 h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'system-ui', sans-serif;
     color: black;
     font-size: 5vmin;
 }
@@ -340,20 +340,20 @@ video {
         /*line-height: 1;*/
         font-weight: bold;
         /*letter-spacing: 2px;*/
-        font-family: 'Vollkorn';
+        font-family: 'system-ui', sans-serif;
         margin: 10px;
         margin-top: 140px;
     }
 
     h2 {
-        font-family: 'Cutive Mono', monospace;
+        font-family: 'system-ui', sans-serif;
         color: black;
         font-size: 7vmin;
         margin: 10px;
     }
 
     h3 {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'system-ui', sans-serif;
         color: black;
         font-size: 7vmin;
     }
